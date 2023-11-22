@@ -32,6 +32,7 @@
 		48A4619B2B0D9FD300955A35 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4619A2B0D9FD300955A35 /* AuthViewModel.swift */; };
 		48A4619D2B0DA43C00955A35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A4619C2B0DA43C00955A35 /* GoogleService-Info.plist */; };
 		48A461A22B0DC5E300955A35 /* AccountSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A461A12B0DC5E300955A35 /* AccountSetupView.swift */; };
+		48A461A72B0DD14200955A35 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A461A62B0DD14200955A35 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		48A4619C2B0DA43C00955A35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48A4619E2B0DA51E00955A35 /* OTH-IOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OTH-IOS.entitlements"; sourceTree = "<group>"; };
 		48A461A12B0DC5E300955A35 /* AccountSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupView.swift; sourceTree = "<group>"; };
+		48A461A62B0DD14200955A35 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		4839B20D2B0D897900084E64 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				48A461A12B0DC5E300955A35 /* AccountSetupView.swift */,
 				4839B2102B0D8A0B00084E64 /* LoginView.swift */,
 			);
 			path = Auth;
@@ -129,6 +132,7 @@
 		483BEC112B0BFCB10099B206 /* OTH-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				48A461A52B0DD13400955A35 /* Theme */,
 				48A4619E2B0DA51E00955A35 /* OTH-IOS.entitlements */,
 				4839B2092B0D42D300084E64 /* Components */,
 				48A461A02B0DA5E200955A35 /* Views */,
@@ -156,9 +160,16 @@
 				4839B20D2B0D897900084E64 /* Auth */,
 				483BEC122B0BFCB10099B206 /* OTH_IOSApp.swift */,
 				483BEC142B0BFCB10099B206 /* ContentView.swift */,
-				48A461A12B0DC5E300955A35 /* AccountSetupView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		48A461A52B0DD13400955A35 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				48A461A62B0DD14200955A35 /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				4839B2112B0D8A0B00084E64 /* LoginView.swift in Sources */,
 				48A461972B0D95F000955A35 /* ProfileView.swift in Sources */,
 				48A461992B0D993D00955A35 /* UserManager.swift in Sources */,
+				48A461A72B0DD14200955A35 /* Theme.swift in Sources */,
 				483BEC132B0BFCB10099B206 /* OTH_IOSApp.swift in Sources */,
 				48A4619B2B0D9FD300955A35 /* AuthViewModel.swift in Sources */,
 			);
