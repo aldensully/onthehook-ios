@@ -27,6 +27,21 @@
 		483BEC3B2B0C04210099B206 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 483BEC3A2B0C04210099B206 /* FirebaseFunctionsCombine-Community */; };
 		483BEC3D2B0C04210099B206 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 483BEC3C2B0C04210099B206 /* FirebaseStorage */; };
 		483BEC3F2B0C04210099B206 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 483BEC3E2B0C04210099B206 /* FirebaseStorageCombine-Community */; };
+		489546762B0E708B0019CA68 /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546752B0E708B0019CA68 /* FirebaseUtility.swift */; };
+		489546782B0E8DD00019CA68 /* AddThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546772B0E8DD00019CA68 /* AddThumbnailView.swift */; };
+		4895467A2B0E9C0A0019CA68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546792B0E9C0A0019CA68 /* SceneDelegate.swift */; };
+		4895467C2B0E9D410019CA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895467B2B0E9D410019CA68 /* AppDelegate.swift */; };
+		489546872B0EB3C70019CA68 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546862B0EB3C70019CA68 /* MainViewController.swift */; };
+		489546892B0EB7DE0019CA68 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546882B0EB7DE0019CA68 /* TabBarController.swift */; };
+		4895468B2B0EB7F00019CA68 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895468A2B0EB7F00019CA68 /* SignUpViewController.swift */; };
+		4895468F2B0EBB4F0019CA68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895468E2B0EBB4F0019CA68 /* HomeViewController.swift */; };
+		489546912B0EBB610019CA68 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546902B0EBB610019CA68 /* LogsViewController.swift */; };
+		489546932B0EBB6C0019CA68 /* ThePondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546922B0EBB6C0019CA68 /* ThePondViewController.swift */; };
+		489546952B0EBB800019CA68 /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546942B0EBB800019CA68 /* UsernameViewController.swift */; };
+		489546972B0EBB8B0019CA68 /* ThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546962B0EBB8B0019CA68 /* ThumbnailViewController.swift */; };
+		4895469A2B0EBC750019CA68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489546992B0EBC750019CA68 /* HomeView.swift */; };
+		4895469C2B0EBC820019CA68 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895469B2B0EBC820019CA68 /* LogsView.swift */; };
+		4895469E2B0EBC8C0019CA68 /* ThePondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895469D2B0EBC8C0019CA68 /* ThePondView.swift */; };
 		48A461972B0D95F000955A35 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A461962B0D95F000955A35 /* ProfileView.swift */; };
 		48A461992B0D993D00955A35 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A461982B0D993D00955A35 /* UserManager.swift */; };
 		48A4619B2B0D9FD300955A35 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4619A2B0D9FD300955A35 /* AuthViewModel.swift */; };
@@ -45,6 +60,21 @@
 		483BEC142B0BFCB10099B206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		483BEC162B0BFCB30099B206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483BEC192B0BFCB30099B206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		489546752B0E708B0019CA68 /* FirebaseUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtility.swift; sourceTree = "<group>"; };
+		489546772B0E8DD00019CA68 /* AddThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThumbnailView.swift; sourceTree = "<group>"; };
+		489546792B0E9C0A0019CA68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4895467B2B0E9D410019CA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		489546862B0EB3C70019CA68 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		489546882B0EB7DE0019CA68 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4895468A2B0EB7F00019CA68 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4895468E2B0EBB4F0019CA68 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		489546902B0EBB610019CA68 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
+		489546922B0EBB6C0019CA68 /* ThePondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePondViewController.swift; sourceTree = "<group>"; };
+		489546942B0EBB800019CA68 /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
+		489546962B0EBB8B0019CA68 /* ThumbnailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailViewController.swift; sourceTree = "<group>"; };
+		489546992B0EBC750019CA68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4895469B2B0EBC820019CA68 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		4895469D2B0EBC8C0019CA68 /* ThePondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePondView.swift; sourceTree = "<group>"; };
 		48A461962B0D95F000955A35 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		48A461982B0D993D00955A35 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		48A4619A2B0D9FD300955A35 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
@@ -91,6 +121,7 @@
 			children = (
 				48A461A12B0DC5E300955A35 /* AccountSetupView.swift */,
 				4839B2102B0D8A0B00084E64 /* LoginView.swift */,
+				489546772B0E8DD00019CA68 /* AddThumbnailView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -109,6 +140,7 @@
 				4839B20A2B0D5EC500084E64 /* SessionStateManager.swift */,
 				48A461982B0D993D00955A35 /* UserManager.swift */,
 				48A4619A2B0D9FD300955A35 /* AuthViewModel.swift */,
+				489546752B0E708B0019CA68 /* FirebaseUtility.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +164,7 @@
 		483BEC112B0BFCB10099B206 /* OTH-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				4895467F2B0EA9030019CA68 /* ViewControllers */,
 				48A461A52B0DD13400955A35 /* Theme */,
 				48A4619E2B0DA51E00955A35 /* OTH-IOS.entitlements */,
 				4839B2092B0D42D300084E64 /* Components */,
@@ -141,6 +174,8 @@
 				4839B2062B0C0AAE00084E64 /* Info.plist */,
 				48A4619C2B0DA43C00955A35 /* GoogleService-Info.plist */,
 				483BEC162B0BFCB30099B206 /* Assets.xcassets */,
+				489546792B0E9C0A0019CA68 /* SceneDelegate.swift */,
+				4895467B2B0E9D410019CA68 /* AppDelegate.swift */,
 			);
 			path = "OTH-IOS";
 			sourceTree = "<group>";
@@ -153,9 +188,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4895467F2B0EA9030019CA68 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4895468D2B0EBB090019CA68 /* Tabs */,
+				4895468C2B0EBACC0019CA68 /* Onboarding */,
+				489546862B0EB3C70019CA68 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4895468C2B0EBACC0019CA68 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4895468A2B0EB7F00019CA68 /* SignUpViewController.swift */,
+				489546942B0EBB800019CA68 /* UsernameViewController.swift */,
+				489546962B0EBB8B0019CA68 /* ThumbnailViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4895468D2B0EBB090019CA68 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				489546882B0EB7DE0019CA68 /* TabBarController.swift */,
+				4895468E2B0EBB4F0019CA68 /* HomeViewController.swift */,
+				489546902B0EBB610019CA68 /* LogsViewController.swift */,
+				489546922B0EBB6C0019CA68 /* ThePondViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		489546982B0EBC620019CA68 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				489546992B0EBC750019CA68 /* HomeView.swift */,
+				4895469B2B0EBC820019CA68 /* LogsView.swift */,
+				4895469D2B0EBC8C0019CA68 /* ThePondView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		48A461A02B0DA5E200955A35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				489546982B0EBC620019CA68 /* Tabs */,
 				4839B20E2B0D898B00084E64 /* Profile */,
 				4839B20D2B0D897900084E64 /* Auth */,
 				483BEC122B0BFCB10099B206 /* OTH_IOSApp.swift */,
@@ -262,14 +339,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				483BEC152B0BFCB10099B206 /* ContentView.swift in Sources */,
+				4895469C2B0EBC820019CA68 /* LogsView.swift in Sources */,
+				489546782B0E8DD00019CA68 /* AddThumbnailView.swift in Sources */,
+				4895469E2B0EBC8C0019CA68 /* ThePondView.swift in Sources */,
 				4839B20B2B0D5EC500084E64 /* SessionStateManager.swift in Sources */,
 				48A461A22B0DC5E300955A35 /* AccountSetupView.swift in Sources */,
+				4895467C2B0E9D410019CA68 /* AppDelegate.swift in Sources */,
+				4895468F2B0EBB4F0019CA68 /* HomeViewController.swift in Sources */,
 				4839B2132B0D8AF300084E64 /* InputView.swift in Sources */,
+				489546952B0EBB800019CA68 /* UsernameViewController.swift in Sources */,
 				4839B2112B0D8A0B00084E64 /* LoginView.swift in Sources */,
+				489546972B0EBB8B0019CA68 /* ThumbnailViewController.swift in Sources */,
 				48A461972B0D95F000955A35 /* ProfileView.swift in Sources */,
 				48A461992B0D993D00955A35 /* UserManager.swift in Sources */,
+				4895467A2B0E9C0A0019CA68 /* SceneDelegate.swift in Sources */,
+				489546762B0E708B0019CA68 /* FirebaseUtility.swift in Sources */,
+				4895468B2B0EB7F00019CA68 /* SignUpViewController.swift in Sources */,
 				48A461A72B0DD14200955A35 /* Theme.swift in Sources */,
+				489546872B0EB3C70019CA68 /* MainViewController.swift in Sources */,
+				489546932B0EBB6C0019CA68 /* ThePondViewController.swift in Sources */,
 				483BEC132B0BFCB10099B206 /* OTH_IOSApp.swift in Sources */,
+				489546892B0EB7DE0019CA68 /* TabBarController.swift in Sources */,
+				489546912B0EBB610019CA68 /* LogsViewController.swift in Sources */,
+				4895469A2B0EBC750019CA68 /* HomeView.swift in Sources */,
 				48A4619B2B0D9FD300955A35 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,7 +496,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OTH-IOS/Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -435,7 +526,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OTH-IOS/Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

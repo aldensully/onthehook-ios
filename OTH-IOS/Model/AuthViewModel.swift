@@ -16,11 +16,15 @@ class AuthViewModel:ObservableObject{
     @Published var currentUser: User?
     @Published var nonce = ""
     @Published var needsAccountSetup = false
-    
+    @Published var username = ""
+    @Published var thumbnail: UIImage?
+    static let shared = AuthViewModel()
+
     init() {
         Auth.auth().addStateDidChangeListener { [weak self] auth, user in
             DispatchQueue.main.async {
                 self?.userSession = user
+                NotificationCenter.default.post(name: .authStateChanged, object: nil)
             }
 
             guard let strongSelf = self, let uid = user?.uid else {
@@ -36,10 +40,9 @@ class AuthViewModel:ObservableObject{
             }
         }
     }
-
+    
     // Separate async function to handle Firestore operations
     private func handleUserAuthentication(withUID uid: String) async {
-        print("USER ID: ",uid)
         let userRef = Firestore.firestore().collection("users").document(uid)
         let snapshot = try? await userRef.getDocument()
 
@@ -55,8 +58,6 @@ class AuthViewModel:ObservableObject{
             }
         }
     }
-
-
 
     
     func authenticate(credential:ASAuthorizationAppleIDCredential){
@@ -137,4 +138,8 @@ func sha256(_ input: String) -> String {
   }.joined()
 
   return hashString
+}
+
+extension Notification.Name {
+    static let authStateChanged = Notification.Name("AuthStateChangedNotification")
 }
